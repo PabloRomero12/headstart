@@ -1,15 +1,16 @@
 {
   "hostedApp": true,
-  "appname": "Default Buyer Test",
-  "appID": "defaultbuyer-test",
-  "clientID": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
-  "incrementorPrefix": "DB_TEST",
-  "baseUrl": "https://my-default-buyer-test.com",
-  "middlewareUrl": "https://my-hosted-middleware.com",
+  "appname": "HeadstartDemo",
+  "appID": "DefaultBuyer-Test",
+  "clientID": "C9700F2C-167D-49ED-BEB0-A11D7F79F742",
+  "incrementorPrefix": "HS_TEST",
+  "baseUrl": "http://localhost:5500",
+  "middlewareUrl": "http://demositemiddleware.azurewebsites.net",
+  "cmsUrl": "https://ordercloud-cms-test.azurewebsites.net",
   "creditCardIframeUrl": "https://fts-uat.cardconnect.com/itoke/ajax-tokenizer.html",
-  "sellerID": "my-seller-id",
-  "sellerName": "My seller name",
-  "translateBlobUrl": "https://MYSTORAGEACCOUNTNAME.blob.core.windows.net/ngx-translate/i18n/",
+  "sellerID": "AgrSsER6alaUYx87",
+  "sellerName": "Headstart Demo",
+  "translateBlobUrl": "https://demositeblob.blob.core.windows.net/ngx-translate/i18n/",
   "orderCloudApiUrl": "https://sandboxapi.ordercloud.io",
   "useMoosend": false,
   "moosendWebsiteID": "xxxxxxxxxxxxxxxxxxxxxxxx",
@@ -18,5 +19,8 @@
   },
   "instrumentationKey": null,
   "anonymousShoppingEnabled": true,
-  "acceptedPaymentMethods": ["CreditCard", "PurchaseOrder"]
+  "acceptedPaymentMethods": [
+    "CreditCard",
+    "PurchaseOrder"
+  ]
 }

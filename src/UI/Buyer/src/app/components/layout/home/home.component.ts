@@ -25,6 +25,7 @@ export class OCMHomePage implements OnInit {
         filters: { 'xp.Featured': true },
       })
       this.featuredProducts = products.Items
+      this.featuredProducts = []
     }
   }
 
